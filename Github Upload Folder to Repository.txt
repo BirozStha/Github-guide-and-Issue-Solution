@@ -1,0 +1,40 @@
+[Note: You can download GitBash from any web browser and install it on your computer.]s
+
+For Uploading an Entire Project Folder in the Github, Follow the Following Code(using GitBash):
+
+Step 1: Go to your Github and create a repository in your github account.
+Step 2: Go to the Folder you want to upload to github 
+Step 3: Right click on the folder and select Open GitBash Here.
+
+Step 4: Type the following command in the GitBash and press Enter:
+        #Git init           (initializes a new Git repository )
+        #Git status         (shows the current state of your working directory)
+        #Git add -A         (stages all changes (new, modified, and deleted files) in your 
+                                working directory for the next commit.)
+        #Git status         (again shows the current state of your working directory)
+        #Git commit -m "Your commit message"    (creates a new commit with the staged changes)
+        #Git remote add origin https://github.com/your-username/your-repo-name.git (paste the origin given in the github repository)
+        #Git push -u origin master or main (pushes the changes in your local repository)
+
+
+
+        ----------------------------------------Just commands---------------------------------------
+
+        1# Git init           
+        2# Git status         
+        3# Git add -A         
+        4# Git status         
+        5# Git commit -m "Your commit message"    
+        6# Git remote add origin https://github.com/your-username/your-repo-name.git 
+        7# Git push -u origin master or main 
+
+Step 5: Now you can see your project folder in your github repository. 
+        SO you can close the GitBash window 
+        and the folder should show in your github repository.
+
+
+
+
+-----------------------------------------------------------thank you---------------------------------------------------------------
+
+
