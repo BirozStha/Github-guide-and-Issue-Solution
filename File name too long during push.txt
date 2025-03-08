@@ -1,0 +1,19 @@
+[When using Commit and push or push in the terminal or vscode]
+
+When pushing using commit and push (in vs code)
+if there is an error such as file name too long error occur
+
+Use the following command for getting permission for pushing long name in the git:
+    Either you can use the following code in the vs code terminal
+                                or
+    you can run the terminal as Administrator Aand simpally type is code and hit enter
+
+-------------------------Code---------------------------------
+            
+            git config --global core.longpaths true
+
+---------------------------------------------------------------
+
+
+
+THis command will allow you to push the file with long name in the git repository.

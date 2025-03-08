@@ -1,0 +1,41 @@
+[When using Commit and push or push in the terminal or vscode]
+
+When pushing using commit and push (in vs code)
+if there is an error related to LR to CFLR error occurs(in windows)
+
+(use this command for stoping converting LR to CFLR  in the git)
+Use the following command for solving the LR to CFLR convertion problem:
+    Either you can use the following code in the vs code terminal
+                                or
+    you can run the terminal as Administrator Aand simpally type is code and hit enter
+    if nothing happens or no error occur then that was sucess
+
+-------------------------Code---------------------------------
+            
+            git config --global core.autocrlf false
+
+---------------------------------------------------------------
+
+
+
+THis command will allow you to push the file with normally as it is in the git repository.
+
+------------------------------------------------------------------------------------------------------------------------------------
+IN SIMPLE WORDS:
+{
+    Best Fix: Disable Git's Auto Line-Ending Conversion
+    Run the following command in VS Code's terminal:
+
+
+    git config --global core.autocrlf false
+
+
+    What this does:
+        Prevents Git from automatically changing LF to CRLF.
+        Stops the warning from appearing when you commit.
+
+}
+
+
+
+
